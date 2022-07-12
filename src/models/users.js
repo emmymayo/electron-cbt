@@ -9,7 +9,7 @@ module.exports = {
 
     // Authenticates a user 
     // @params username, password
-    // @return {id, username, name, user_role} | indefined
+    // @return {id, username, name, user_role} | undefined
     authenticateUser: (username = '', password = '')=>{
         try {
             let authUser = DB
